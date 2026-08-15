@@ -13,9 +13,9 @@ Enter the desired command then follow it's prompts. Here you find a separate des
 	
 	usage:
 	
-	/>show
-
-	Enter land name or cell index: 
+		/>show
+	
+		Enter land name or cell index: 
 
 	to print the full table, simply press enter
 	
@@ -24,7 +24,7 @@ Enter the desired command then follow it's prompts. Here you find a separate des
 	to print cell content, enter it's excel index, for example C3.
 
 
-3) add:
+2) add:
 
 	adds a new row to the table in alphabetical order for country names.
 	
@@ -32,38 +32,38 @@ Enter the desired command then follow it's prompts. Here you find a separate des
 	
 	usage:
 	
-	/>add
-
-	Landesname:
-
-	Nationalität:
-
-	Einwohner (m):
-
-	Einwohnerin (f):
-
-	Einwohner (m pl.):
-
-	Einwohnerinnen (f pl.):
-
+		/>add
 	
+		Landesname:
+	
+		Nationalität:
+	
+		Einwohner (m):
+	
+		Einwohnerin (f):
+	
+		Einwohner (m pl.):
+	
+		Einwohnerinnen (f pl.):
+
+
 3) remove:
 	
 	removes one or more rows from the table via country name while preserving alphabetical order of country names.
 	
 	usage:
 	
-	/>remove
-	
-	Enter land name #1:
-	
-	Enter land name #2:
-	
-	...
+		/>remove
+		
+		Enter land name #1:
+		
+		Enter land name #2:
+		
+		...
 
 	Empty input stops asking for further country names and executes the command.
 			
-5) modify:
+4) modify:
 
  	modifies row contents via country name.
 	
@@ -71,14 +71,19 @@ Enter the desired command then follow it's prompts. Here you find a separate des
 	
 	usage:
 
-	/>modify
+		/>modify
+	
+		Enter land name:
 
-	Enter land name:
-	Nationalität:
-	Einwohner (m):
-	Einwohnerin (f):
-	Einwohner (m pl.):
-	Einwohnerinnen (f pl.):
+		Nationalität:
+
+		Einwohner (m):
+
+		Einwohnerin (f):
+
+		Einwohner (m pl.):
+
+		Einwohnerinnen (f pl.):
 
 
 5) exit/quit:
@@ -88,4 +93,5 @@ Enter the desired command then follow it's prompts. Here you find a separate des
 
 
 	Mit herzlichen Grüßen
+
 	Alaa Roumeih, 15.08.2026
